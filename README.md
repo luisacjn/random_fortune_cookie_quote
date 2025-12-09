@@ -7,3 +7,6 @@ to do list:
   <>verify if i can open with a nfc tag
   <>verify if i can change the document without changing the link saved in the nfc tag
   <>write the code (html, css, js files)
+
+  >second try 
+    <>stage change and commit
