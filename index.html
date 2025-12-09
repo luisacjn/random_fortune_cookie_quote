@@ -11,14 +11,34 @@
     
     <h1> Fortune cookie quote generator</h1>
 
-    <p> new phrase</p>
-
     <p id="index"></p>
-    <p id="fortune"></p>
+  <p id="fortune"></p>
 
+  <button onclick="learnMore()">Learn more</button>
 
+  <script>
+    const fortunes = [
+      "Believe in yourself — you are capable of more than you think.",
+      "Every small step is progress.",
+      "New opportunities are closer than they appear.",
+      "Patience will bring its rewards.",
+      "Your creativity will lead to success."
+    ];
 
-    <script src="app.js"></script>
+    const randomIndex = Math.floor(Math.random() * fortunes.length);
+
+    document.getElementById("index").textContent =
+      "Fortune #" + (randomIndex + 1);
+
+    document.getElementById("fortune").textContent =
+      fortunes[randomIndex];
+
+    function learnMore() {
+      window.location.href = "about.html";
+    }
+  </script>
+
+   <!-- <script src="app.js"></script> -->
     
 </body>
 </html>
