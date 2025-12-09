@@ -9,4 +9,8 @@ to do list:
   <>write the code (html, css, js files)
 
   >second try 
-    <>stage change and commit
+    <>Create the html file and push it to GITHUB
+    <>Create a link to the html file on git hub and upload it to the tag
+    <>Modify it and try the same link on the tag
+
+    <>ARE THE MODIFICATION ASSOCIATED TO THE FIRST LINK UPLOAD ON THE TAG? <YES> <NO>
